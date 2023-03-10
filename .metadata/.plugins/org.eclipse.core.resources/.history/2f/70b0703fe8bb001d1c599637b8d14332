@@ -1,0 +1,5 @@
+package com.sanju.exceptions;
+
+public class ResourceNotFoundException extends RuntimeException {
+	
+}

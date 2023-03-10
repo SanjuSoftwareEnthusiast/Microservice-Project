@@ -1,0 +1,21 @@
+package com.sanju.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@Entity
+public class User {
+	
+	@Id
+	private String userId;
+	private String name;
+	private String email;
+	private String about;
+}

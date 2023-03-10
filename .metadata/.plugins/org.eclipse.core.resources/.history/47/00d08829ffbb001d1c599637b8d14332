@@ -1,0 +1,6 @@
+package com.sanju.services;
+
+public interface HotelService {
+
+	
+}

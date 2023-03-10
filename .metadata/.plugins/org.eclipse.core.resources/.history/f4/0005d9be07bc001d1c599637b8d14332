@@ -1,0 +1,25 @@
+package com.sanju.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.sanju.entities.Rating;
+import com.sanju.services.RatingService;
+
+@RestController
+@RequestMapping("/ratings")
+public class RatingController {
+
+	@Autowired
+	RatingService ratingService;
+	
+	@PostMapping
+	public ResponseEntity<?> createRating(@RequestBody Rating rating)
+	{
+		rating 
+	}
+}

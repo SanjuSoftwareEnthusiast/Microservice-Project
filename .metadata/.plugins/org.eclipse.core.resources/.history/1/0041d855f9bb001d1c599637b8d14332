@@ -1,0 +1,5 @@
+package com.sanju.repositories;
+
+public interface HotelRepository {
+
+}

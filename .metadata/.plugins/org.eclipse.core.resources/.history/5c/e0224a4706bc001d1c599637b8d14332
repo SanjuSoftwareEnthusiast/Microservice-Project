@@ -1,0 +1,5 @@
+package com.sanju.services;
+
+public interface RatingService {
+
+}

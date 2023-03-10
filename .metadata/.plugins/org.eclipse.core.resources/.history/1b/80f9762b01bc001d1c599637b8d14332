@@ -1,0 +1,5 @@
+package com.sanju.payload;
+
+public class ApiResponse {
+
+}

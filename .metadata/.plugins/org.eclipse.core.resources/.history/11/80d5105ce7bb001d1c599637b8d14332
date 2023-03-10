@@ -1,0 +1,5 @@
+package com.sanju.Repositories;
+
+public class UserRepositoty {
+
+}

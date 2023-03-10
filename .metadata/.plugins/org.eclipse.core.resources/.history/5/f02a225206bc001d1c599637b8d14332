@@ -1,0 +1,9 @@
+package com.sanju.services;
+
+import com.sanju.entities.Rating;
+
+public interface RatingService {
+	
+	Rating create(Rating rating);
+	
+}

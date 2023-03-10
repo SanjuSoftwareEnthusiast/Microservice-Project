@@ -1,0 +1,17 @@
+package com.sanju.services;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.sanju.entities.User;
+
+@Service
+public interface UserService {
+
+	User saveUser(User user);
+	
+	List<User> getAllUser();
+	
+	User getUser(Stting userId);
+}
